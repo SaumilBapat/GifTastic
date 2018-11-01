@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>GifTastic</title>
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/logic.js" ></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body class="bg-dark">
+
+  <!--Navbar-->
+  <nav class="navbar">
+      <h1>GifTastic</h1>
+  </nav>
+
+  <!-- Container Div -->
+  <div class="container">
+    <!-- a Bootstrap row with columns -->
+    <div class="row">
+      <div class="col-lg-12">
+          <div>
+              <div class="sectionTitle">Topics</div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <div id="buttons"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <div>
+            <input type="text" class="inputText" id="NewTopic"/>
+            <input type="button" class="inputButton" onclick="addTopic();" value="Add Topic"/>
+            <input type="button" class="inputButton" id="behaviourType" behaviour="empty" onclick="changeBehaviour();" value="Behaviour: Clear Every Time"/>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <div id="Gifs"/>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

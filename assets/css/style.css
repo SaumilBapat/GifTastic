@@ -1,0 +1,82 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+html, body
+{
+    height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: grey;
+}
+
+.col-lg-12 {
+  padding: 0px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.navbar {
+    text-align: center;
+    padding-right: 20px;
+    color: yellow;
+}
+
+.container {
+  background-color: transparent;
+}
+
+.userMessage {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: black;
+  display: inline-block;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight:lighter;
+  font-style: oblique;
+  color: white;
+  width: 100%;
+}
+
+.inputButton {
+  height: 26px;
+  font-size: 12px;
+  margin: 10px 10px;
+  border: 2px;
+  font-weight:lighter;
+  font-style: oblique;
+  text-align: left;
+  color: black;
+  background-color: red;
+  display: inline-block;
+}
+
+.inputText {
+  height: 26px;
+  width: 200px;
+  font-size: 12px;
+  margin: 10px 10px;
+  border: 2px;
+  font-weight:lighter;
+  font-style: oblique;
+  color: red;
+}
+
+.imageGif {
+  margin: 10px 0px;
+}
