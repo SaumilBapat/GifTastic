@@ -1,8 +1,8 @@
-***STARWARS RPG***
+***GifTastic***
 
-PLAY: https://saumilbapat.github.io/unit-4-game/
+PLAY: https://saumilbapat.github.io/GifTastic/
 
 > Tips
 
-- Your Attack goes up at every turn, your opponents maintain a constant attack
-- Take out the weakest first!
+- Click on the Gif to start / pause them
+- You can choose the behavior to either append new gifs to the end or clear out all existing ones
